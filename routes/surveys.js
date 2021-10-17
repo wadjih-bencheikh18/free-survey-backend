@@ -1,5 +1,6 @@
 const userRoutes = (app, fs) => {
   const dataPath = "./data/surveys.json";
+  
   const readFile = (
     callback,
     returnJson = false,
@@ -24,17 +25,17 @@ const userRoutes = (app, fs) => {
       if (err) {
         throw err;
       }
-
       callback();
     });
   };
 
-  // READ
+  // READ ALL SURVEYS
   app.get("/getSurveys", (req, res) => {
     readFile((data) => {
       res.send(data);
     }, true);
   });
+  // READ SURVEY WITH id
   app.get("/getSurveys/:id", (req, res) => {
     readFile((data) => {
       const Id = Number(req.params["id"]);

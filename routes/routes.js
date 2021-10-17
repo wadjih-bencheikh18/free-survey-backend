@@ -9,5 +9,4 @@ const appRouter = (app, fs) => {
   userRoutes(app, fs);
 };
 
-// this line is unchanged
 module.exports = appRouter;
