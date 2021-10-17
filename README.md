@@ -3,12 +3,12 @@ frontend : gatsby tailwind  <br />
 axios : integration <br />
 backend : nodejs express <br />
 <br />
+----------------------------------------------------------------------
 <br />
-to start the website locally you need two part(backend and front) <br />
+to start the website locally we need two part(backend and front) <br />
 backend : https://github.com/wadjih-bencheikh18/free-survey-backend <br />
 frontend: https://github.com/wadjih-bencheikh18/free-survey-frontend <br />
 <br />
-------------------------------------------------------------------------
 <br />
 I-Backend: <br />
 &nbsp;1- clone backend project: <br />
