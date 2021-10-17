@@ -35,12 +35,17 @@ const userRoutes = (app, fs) => {
       res.send(data);
     }, true);
   });
+  app.get("/getSurveys/:id", (req, res) => {
+    readFile((data) => {
+      const Id = Number(req.params["id"]);
+      res.send(data.find((e) => e.id === Id));
+    }, true);
+  });
   // CREATE
   app.post("/AddSurvey", (req, res) => {
     readFile((data) => {
 
         data.push(req.body)
-        console.log(data)
       writeFile(JSON.stringify(data, null, 2), () => {
         res.status(200).send("new survey added");
       });
