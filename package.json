@@ -1,0 +1,19 @@
+{
+  "name": "free-survey",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Wadjih Bencheikh",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "nodejs": "^0.0.0",
+    "nodemon": "^2.0.13"
+  },
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "devDependencies": {
+    "cors": "^2.8.5"
+  }
+}
