@@ -25,7 +25,7 @@ I-Backend: <br />
 &nbsp;&nbsp;&nbsp; yarn install <br />
 &nbsp;&nbsp;&nbsp;(to install yarn : https://classic.yarnpkg.com/en/docs/install) <br />
 &nbsp;3- start our local server in port 8080 : <br />
-&nbsp;&nbsp;> npm start <br />
+&nbsp;&nbsp;> yarn start <br />
  <br />
 II-Fontend: <br />
 &nbsp;1- clone backend project: <br />
