@@ -43,7 +43,7 @@ How to add external data persistence?
 
 if we want to use external data persistence we reather use "MongoDb" by following the next steps:
 1- add MongoDb and mongoose to our project:
-  > yarn add Mongodb mongoose -D
+  > yarn add mongodb mongoose -D
 2- connect to our database (we can use atlas)
   exmple :mongoose.connect("mongodb+srv://wadjih:<password>@freesurvey.4qkzo.mongodb.net/myFirstDatabase?retryWrites=true&  w=majority");
 3- create surveys mongoose Schema
